@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 
 			private void requestData(String url) {
 				myTask task = new myTask();
-				task.execute(url);
+				task.execute(url); // Kgothalang
 			}
 		});
     }
